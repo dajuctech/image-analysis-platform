@@ -1,10 +1,12 @@
 #!/bin/bash
 
-echo "---- Last 10 log entries ----"
-tail -n 10 logs/*.log
+LOG_DIR="logs"
 
-echo "---- Count of WARNINGS and ERRORS ----"
-grep -E 'WARNING|ERROR' logs/*.log | wc -l
+echo " Showing last 10 log entries:"
+tail -n 10 $LOG_DIR/*.log
 
-echo "---- All ERROR messages ----"
-grep 'ERROR' logs/*.log
+echo -e "\n Counting WARNINGS and ERRORS:"
+grep -E "WARNING|ERROR" $LOG_DIR/*.log | wc -l
+
+echo -e "\n Showing all ERROR lines:"
+grep "ERROR" $LOG_DIR/*.log
