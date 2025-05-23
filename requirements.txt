@@ -1,31 +1,50 @@
+# ----------------------
 # Core Python packages
+# ----------------------
 numpy
 pandas
 tqdm
 
+# ----------------------
 # Image processing
+# ----------------------
 opencv-python
 scikit-image
 
-# Machine learning
+# ----------------------
+# Machine learning & DL
+# ----------------------
 tensorflow
 scikit-learn
 xgboost
 
+# ----------------------
 # Visualization
+# ----------------------
 matplotlib
 seaborn
 
-# API (Flask version - or use FastAPI if preferred)
+# ----------------------
+# API (choose Flask or FastAPI)
+# ----------------------
 flask
 python-multipart
-
-# Optional: If using FastAPI instead of Flask
 # fastapi
 # uvicorn
 
+# ----------------------
 # BI Dashboard
+# ----------------------
 streamlit
 
-# Logging and monitoring
-boto3              # Only needed if using AWS S3
+# ----------------------
+# Cloud Integration
+# ----------------------
+boto3                    # AWS S3
+google-cloud-storage     # GCP GCS
+azure-storage-blob       # Azure Blob
+
+# ----------------------
+# Misc & Monitoring
+# ----------------------
+requests
