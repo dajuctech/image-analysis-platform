@@ -1,0 +1,67 @@
+# Python cache and compiled files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Virtual environment
+venv/
+.env/
+env/
+.venv/
+
+# IDE and OS settings
+.vscode/
+*.DS_Store
+Thumbs.db
+
+# Logs and metadata
+*.log
+*.sqlite3
+*.db
+
+# Dataset and image files (optional)
+data/raw/
+data/processed/
+data/*.csv
+
+# Model files and weights
+*.h5
+*.hdf5
+*.ckpt
+*.pth
+*.pt
+*.onnx
+saved_model/
+
+# Cloud credentials (NEVER commit!)
+.aws/
+.gcp/
+credentials.json
+
+# Streamlit or Dash temp files
+.streamlit/
+__dash__cache__/
+
+# Docker and build
+Dockerfile
+*.dockerignore
+build/
+dist/
+
+# Mac system files
+.DS_Store
+
+# Output folders
+output/
+results/
+checkpoints/
+
+# Coverage reports
+htmlcov/
+coverage.xml
+.cache
+.pytest_cache/
